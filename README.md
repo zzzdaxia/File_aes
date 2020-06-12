@@ -1,4 +1,5 @@
-＃单文件AES-cbc加密   基于C语言开发
+＃文件加密 aes-cbc
+单文件AES-cbc加密   基于C语言开发
 
 cbc模式下  IV码目前写死，为：const uint8_t encrypt_vi[16+1] = {"*)zhou.da@xia888"};
 
