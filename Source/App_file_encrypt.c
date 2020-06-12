@@ -220,7 +220,8 @@ int main(void)
     while(1)
     {
         memset((char*)Key,00,sizeof(Key));
-        printf("请输入16位长度的密钥，空为随机密钥...\r\n");
+        //printf("请输入16位长度的密钥，空为随机密钥...\r\n");
+        printf("请输入16位长度的密钥...\r\n");
         /*scanf("%c",&Key[0]);
         if(0x00 == Key[0])//( 0x0d == Key[0] || 0x20 == Key[0] || 0x09 == Key[0])
         {
