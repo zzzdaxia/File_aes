@@ -1,8 +1,10 @@
-＃文件加密 aes-cbc
+＃文件加密 aes-cbc 
+
 单文件AES-cbc加密   基于C语言开发
 
 cbc模式下  IV码目前写死，为：const uint8_t encrypt_vi[16+1] = {"*)zhou.da@xia888"};
 
+填充按照PCK7标准填充，解密会自动去填充
 
 make 编译后运行app_aes 即可运行
 
